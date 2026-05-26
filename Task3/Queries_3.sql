@@ -45,3 +45,7 @@ SELECT * FROM student WHERE name LIKE '%r';
 
 --students who joined in the year of 2023
 SELECT * FROM student WHERE enrollment_date BETWEEN '2023-01-01' AND '2023-12-31';
+
+--list all cities where students are from
+SELECT DISTINCT city
+FROM student;
